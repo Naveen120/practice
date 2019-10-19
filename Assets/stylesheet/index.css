@@ -1,0 +1,97 @@
+#match-list .card{
+    overflow: hidden;
+    max-height: 400px;
+}
+#match-list .card p{
+    font-size: 10px;
+    font-weight: bold;
+}
+#match-list .leftbar .color{
+    width: 80px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+}
+#match-list .leftbar img{
+    width: 70px;
+}
+#match-list .leftbar .logo{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+}
+#match-list .rightbar .color{
+    width: 80px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+}
+#match-list .rightbar img{
+    width: 70px;
+}
+#match-list .rightbar .logo{
+    position: absolute;
+    top: 30%;
+    right: 50px;
+}
+#match-list .card-text{
+    font-size: 12px;
+}
+#match-list .timer{
+    font-size: 15px;
+    color: #E3412E;
+}
+.color-11{
+    background-color: #EB5160;
+}
+.color-1{
+    background-color: #ED76D5;
+}
+.color-2{
+    background-color: #23A5FC;
+}
+.color-3{
+    background-color: #ED5DAB;
+}   
+.color-4{
+    background-color: #A7DFE2;
+}
+.color-5{
+    background-color: #D76E7F;
+}
+.color-6{
+    background-color: #5074AB;
+}
+.color-7{
+    background-color: #FFE12F;
+}
+.color-8{
+    background-color: #DCDCDC;
+}
+.color-9{
+    background-color: #E16767;
+}
+.color-10{
+    background-color: #4D94D6;
+}
+#match-list{
+    background-color: #EFEFF4;
+}
+#collapse-work .card-text{
+    font-size: 16px;
+    font-weight: normal;
+}
+#collapse-work .overlay-custom-margin{
+    margin-top: 80px;
+}
+#carousal .card-middle{
+    background-image: url("../media/bolt_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.coustom-container{
+    width: 1200px;
+    margin: auto;
+}

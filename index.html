@@ -2,50 +2,419 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="./index.js"></script>
-    <style>
-        .coach{
-            width: 420px;
-            background-color: lightskyblue;
-        }
-        .seats{
-            background-color: lightslategray;
-            width: 50px;
-            height: 50px;
-            text-align: center;
-            margin: 5px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/stylesheet/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Assets/stylesheet/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Assets/stylesheet/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./Assets/stylesheet/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <form action="">
-            <label for="slectSeat">Ticket Book</label>
-            <select name="" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-            </select>
-        </form>
-
-        <button class="button">click</button>
-
-        <div class="coach row mt-5">
-    
+    <section id="match-list" class="match-list py-3">
+        <div class="coustom-container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-11"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo1.png" alt="">
+                                        <p>BER</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-11"></div>
+                                    <div class="logo row">
+                                        <p>PNG</p>
+                                        <img src="./Assets/media/card logo2.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-1"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo3.png" alt="">
+                                        <p>BTW</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-2"></div>
+                                    <div class="logo row">
+                                        <p>KQK</p>
+                                        <img src="./Assets/media/card logo4.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-3"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo5.png" alt="">
+                                        <p>SS-W</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-4"></div>
+                                    <div class="logo row">
+                                        <p>BH-W</p>
+                                        <img src="./Assets/media/card logo6.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-5"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo7.png" alt="">
+                                        <p>NED</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-6"></div>
+                                    <div class="logo row">
+                                        <p>NAM</p>
+                                        <img src="./Assets/media/card logo8.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-7"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo9.png" alt="">
+                                        <p>JER</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-8"></div>
+                                    <div class="logo row">
+                                        <p>NIG</p>
+                                        <img src="./Assets/media/card logo10.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-muted">ICC Men's T20 World Cup Qualifers</p>
+                        </div>
+                        <div class="vs">
+                            <div class="clearfix">
+                                <div class="leftbar float-left">
+                                    <div class="color color-9"></div>
+                                    <div class="logo row">
+                                        <img src="./Assets/media/card logo11.png" alt="">
+                                        <p>KEN</p>
+                                    </div>
+                                </div>
+                                <div class="rightbar float-right">
+                                    <div class="color color-10"></div>
+                                    <div class="logo row">
+                                        <p>SCO</p>
+                                        <img src="./Assets/media/card logo12.png" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card-body pt-4 pb-2">
+                            <p class="timer float-right m-0">1h 34m left</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="col-3 btn bg-white text-success border-success" type="button">MORE MATCHES</button>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section id="collapse-work" class="collapse-work mb-5">
+        <h4 class="text-center my-4 font-weight-bold">ABOUT FANTASY CRICKET</h4>
+        <div class="coustom-container">
+            <div class="card mb-4">
+                <div class="card-header btn d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapseOne">
+                    <h5 class="card-title mb-0">
+                        What is Fantasy Cricket?
+                    </h5>
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+    
+                <div id="collapseOne" class="collapse">
+                        <img class="d-none d-lg-block card-img" src="./Assets/media/collapse.png" alt="">
+                    <div class="card-img-overlay col-lg-6 overlay-custom-margin">
+                        <p class="card-text text-muted">
+                            Cricket is not just a sport in India, it's a religion. So it's no surprise that Dream11 is most popular for its immersive fantasy cricket experience. From Tests to T20s, you can join contests for all formats of international cricket on Dream11. Apart from ICC matches and tournaments, users can also play online cricket games from various cricket leagues like the IPL - followed and played across the world.
+                        </p>
+                        <p class="card-text text-muted">
+                            But how does one join and play a fantasy cricket match on Dream11? All you need is do is register using your email address and mobile number. An even quicker way to sign up is by connecting your Google or Facebook account. The game comes with a set of rules that are put in place to ensure #FairPlay for everyone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header btn d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                    <h5 class="card-title mb-0">
+                        How To Play Fantasy Cricket and Win Cash Daily
+                    </h5>
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                
+                <div id="collapseTwo" class="collapse">
+                    <div class="card-body">
+                        <p class="card-text text-muted">Here are the basic rules you need to follow while playing a fantasy cricket match on Dream11:</p>
+                        <p class="card-text pl-4 text-muted"><span class="h5 font-weight-bold">Selecting the Match</span> - Once you head to the cricket page, you'll see a list of upcoming cricket matches that you can participate in. Pick the match that suits you want to play.</p>
+                        <p class="card-text pl-4 text-muted"><span class="h5 font-weight-bold">Creating a Team</span> - After you've selected a match, it's time to put your sports knowledge and analytical skills to good use by picking the right team. This is critical as creating the best team will help you win bigger rewards in Cash Contests.</p>
+                        <p class="card-text pl-4 text-muted"><span class="h5 font-weight-bold">Cash Contests</span> - Once you've created your team, you will be redirected to the contests page. Select a Cash Contest that fits your budget. You can also test your skills in Practice Contests. That's it! You're all set for the fantasy cricket game.</p>
+                        <p class="card-text pl-4 text-muted"><span class="h5 font-weight-bold">Follow the Match</span>It's time to check your fantasy cricket team’s progress. You can use the fantasy scorecard and contest leaderboard to check your rank. The scorecard is updated every 2 minutes.</p>
+                        <p class="card-text pl-4 text-muted">Once the match is over and winners are officially declared, your fantasy team’s final ranking and winning amount will be visible on the leaderboard. You could withdraw winnings over Rs.200 from your Dream11 account with a one-time verification.</p>
+                        <p class="card-text"><span class="h5 font-weight-bold">TIP:</span>Choose your captain and vice-captain carefully as they will score 2x and 1.5x points respectively and will decide whether you are the winner in your fantasy cricket contest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header btn d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapseThree">
+                    <h5 class="card-title mb-0">
+                        Beyond Cricket - Fantasy Football And Much More
+                    </h5>
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+
+                <div id="collapseThree" class="collapse">
+                    <div class="card-body">
+                        <p class="card-text text-muted">While fantasy cricket matches are extremely popular on Dream11, it also offers Cash Contests in fantasy football, NBA and kabaddi matches. Dream11 is the official partner of many popular leagues like Indian Super League (ISL), NBA, Pro Kabaddi League (PKL) and others. So why wait? Start playing on Dream11 right away for the best fantasy sports experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousal">
+            <h4 class="text-center my-4 font-weight-bold">FROM FANS TO FANTASY PLAYERS, THEY ALL LOVE DREAM11</h4>
+        <div class="coustom-container">
+            <div class="owl-carousel owl-theme">
+                <div class="card">
+                    <div class="card-top row">
+                        <div class="user-img col-4">
+                            <img class="w-100" src="./Assets/media/user1.png" alt="">
+                        </div>
+                        <div class="user-details col-8 pt-4">
+                            <div class="h6">Sonu Shrivastav</div>
+                            <div class="score row">
+                                <div class="team-name col">
+                                    <p class="mb-0 font-weight-normal">Team Name :</p>
+                                    <p class="font-weight-bold">Chotte Sarkar</p>
+                                </div>
+                                <div class="playing-since col">
+                                    <p class="mb-0 font-weight-normal">playing Since</p>
+                                    <p class="font-weight-bold">2017</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle d-flex justify-content-around">
+                        <div class="mera-contest py-3">
+                            <p class="text-danger mb-0">Mega Contest Winner</p>
+                            <p class="mb-0">CHENNAI VS PUNJAB</p>
+                        </div>
+                        <div class="winning py-3">
+                            <p class="mb-0 text-white">Winnings</p>
+                            <p class="mb-0 text-white">&#8377; 25 Lakhs</p>
+                        </div>
+                    </div>
+                    <div class="card-bottam card-body">
+                        <div class=".card-text text-muted">
+                            I have been playing Dream11 since 2017. One thing I can say for sure is practice truly matters if you aim to win big on Dream11. It took a lot of time, patience and studying of teams for punjab vs Rajasthan match, just like every fantasy cricket match I play. But this time around, my hard work and observation hit the jackpot, and I won Rs 25 lakh.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card ml-4">
+                    <div class="card-top row">
+                        <div class="user-img col-4">
+                            <img class="w-100" src="./Assets/media/user2.png" alt="">
+                        </div>
+                        <div class="user-details col-8 pt-4">
+                            <div class="h6">Samir Pinjari</div>
+                            <div class="score row">
+                                <div class="team-name col">
+                                    <p class="mb-0 font-weight-normal">Team Name :</p>
+                                    <p class="font-weight-bold">SAMIR3933CD</p>
+                                </div>
+                                <div class="playing-since col">
+                                    <p class="mb-0 font-weight-normal">playing Since</p>
+                                    <p class="font-weight-bold">2017</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle d-flex justify-content-around">
+                        <div class="mera-contest py-3">
+                            <p class="text-danger mb-0">Mega Contest Winner</p>
+                            <p class="mb-0">CHENNAI VS MUMBAI</p>
+                        </div>
+                        <div class="winning py-3">
+                            <p class="mb-0 text-white">Winnings</p>
+                            <p class="mb-0 text-white">&#8377; 20 Lakhs</p>
+                        </div>
+                    </div>
+                    <div class="card-bottam card-body">
+                        <div class=".card-text text-muted font-italic">
+                                I have been playing Dream11 since 2017. One thing I can say for sure is practice truly matters if you aim to win big on Dream11. It took a lot of time, patience and studying of teams for punjab vs Rajasthan match, just like every fantasy cricket match I play. But this time around, my hard work and observation hit the jackpot, and I won Rs 25 lakh.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card ml-4">
+                    <div class="card-top row">
+                        <div class="user-img col-4">
+                            <img class="w-100" src="./Assets/media/user3.png" alt="">
+                        </div>
+                        <div class="user-details col-8 pt-4">
+                            <div class="h6">Indarjeet Pramanik</div>
+                            <div class="score row">
+                                <div class="team-name col">
+                                    <p class="mb-0 font-weight-normal">Team Name :</p>
+                                    <p class="font-weight-bold">Indarjeet Pramanik</p>
+                                </div>
+                                <div class="playing-since col">
+                                    <p class="mb-0 font-weight-normal">playing Since</p>
+                                    <p class="font-weight-bold">2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle d-flex justify-content-around">
+                        <div class="mera-contest py-3">
+                            <p class="text-danger mb-0">Mega Contest Winner</p>
+                            <p class="mb-0">DELHI VS CHENNAI</p>
+                        </div>
+                        <div class="winning py-3">
+                            <p class="mb-0 text-white">Winnings</p>
+                            <p class="mb-0 text-white">&#8377; 12.5 Lakhs</p>
+                        </div>
+                    </div>
+                    <div class="card-bottam card-body">
+                        <div class=".card-text text-muted font-italic">
+                                As a die-hard cricket fan, I practically kept track of all sorts of news on players, teams and tournaments I did the same for IPL ever since it began. But when I got introduced to Dream11, I got an opportunity to put my knowledge to good use. Thanks to which, I won Rs 12.5 Lakh in a Delhi vs Chennai match recently.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card ml-4">
+                    <div class="card-top row">
+                        <div class="user-img col-4">
+                            <img class="w-100" src="./Assets/media/user4.png" alt="">
+                        </div>
+                        <div class="user-details col-8 pt-4">
+                            <div class="h6">Vishal Patil</div>
+                            <div class="score row">
+                                <div class="team-name col">
+                                    <p class="mb-0 font-weight-normal">Team Name :</p>
+                                    <p class="font-weight-bold">Royalchall</p>
+                                </div>
+                                <div class="playing-since col">
+                                    <p class="mb-0 font-weight-normal">playing Since</p>
+                                    <p class="font-weight-bold">2017</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle d-flex justify-content-around">
+                        <div class="mera-contest py-3">
+                            <p class="text-danger mb-0">Mega Contest Winner</p>
+                            <p class="mb-0">CHENNAI VS MUMBAI</p>
+                        </div>
+                        <div class="winning py-3">
+                            <p class="mb-0 text-white">Winnings</p>
+                            <p class="mb-0 text-white">&#8377; 10 Lakhs</p>
+                        </div>
+                    </div>
+                    <div class="card-bottam card-body">
+                        <div class=".card-text text-muted font-italic">
+                                As a die-hard cricket fan, I practically kept track of all sorts of news on players, teams and tournaments I did the same for IPL ever since it began. But when I got introduced to Dream11, I got an opportunity to put my knowledge to good use. Thanks to which, I won Rs 12.5 Lakh in a Delhi vs Chennai match recently.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center my-4">
+                <button class="col-3 btn bg-white text-success border-success" type="button">VIEW ALL WINNERS</button>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./Assets/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
 </body>
 </html>
